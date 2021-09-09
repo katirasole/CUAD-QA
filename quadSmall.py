@@ -520,9 +520,11 @@ def compute_predictions_logits(
       print("Writing predictions to")
       #logger.info(f"Writing predictions to: {output_prediction_file}")
     if output_nbest_file:
-      logger.info(f"Writing nbest to: {output_nbest_file}")
+      print("Writing nbest to")
+      #logger.info(f"Writing nbest to: {output_nbest_file}")
     if output_null_log_odds_file and version_2_with_negative:
-      logger.info(f"Writing null_log_odds to: {output_null_log_odds_file}")
+      print("Writing null_log_odds to")
+      #logger.info(f"Writing null_log_odds to: {output_null_log_odds_file}")
 
     example_index_to_features = collections.defaultdict(list)
     for feature in all_features:
