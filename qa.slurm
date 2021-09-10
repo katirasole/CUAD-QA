@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH -A ksoleymanzadeh #your_user_account
-#SBATCH -J ege_university #job_name
+#SBATCH -J cuad #job_name
 #SBATCH -N 1 #number of nodes to be used
 #SBATCH -n 14 # number of tasks (mpi) to be lunched
 #SBATCH -c 1 #number of cores per task.. Not mandatory
-#SBATCH -p sardalya #name of the job queue
+#SBATCH -p barbun #name of the job queue
 
 #all modules can be listed with > module avail
 #for this job python/3.7.11 is used
