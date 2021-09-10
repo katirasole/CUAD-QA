@@ -7,8 +7,8 @@
 #SBATCH -p sardalya #name of the job queue
 
 #all modules can be listed with > module avail
-#for this job python/3.6.5-gcc is used
-module load centos7.3/comp/python/3.6.5-gcc
+#for this job python/3.7.11 is used
+module load centos7.3/comp/python/3.7.11
 
 #run virtualenv under the $HOME directory and activate it
 virtualenv --no-download $HOME/virtualspace/venv
