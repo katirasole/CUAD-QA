@@ -15,6 +15,7 @@ virtualenv --no-download $HOME/virtualspace/venv
 source $HOME/virtualspace/venv/bin/activate
 
 #install packages
+pip install --upgrade pip
 pip install -r ./requirements.txt
 
 python ./quadSmall.py
