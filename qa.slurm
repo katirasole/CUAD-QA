@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH -A ksoleymanzadeh #your_user_account
 #SBATCH -J cuad #job_name
-#SBATCH -N 4 #number of nodes to be used
+#SBATCH -N 1 #number of nodes to be used
 #SBATCH -n 2 # number of tasks (mpi) to be lunched
 #SBATCH -c 1 #number of cores per task.. Not mandatory
-#SBATCH -p barbun #name of the job queue
+#SBATCH -p sardalya #name of the job queue
 #SBATCH –time 60
 
 #all modules can be listed with > module avail
