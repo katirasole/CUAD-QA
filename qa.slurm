@@ -5,6 +5,7 @@
 #SBATCH -n 2 # number of tasks (mpi) to be lunched
 #SBATCH -c 1 #number of cores per task.. Not mandatory
 #SBATCH -p barbun #name of the job queue
+#SBATCH –time 60
 
 #all modules can be listed with > module avail
 #for this job python/3.7.11 is used
