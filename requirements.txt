@@ -1,3 +1,3 @@
-tensorflow==2.6.0
-transformers==4.9.2
-torch==1.9
+tensorflow
+transformers
+torch
